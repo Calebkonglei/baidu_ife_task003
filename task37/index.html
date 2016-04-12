@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>task37</title>
+	<style type="text/css">
+	*{
+		margin:0;padding:0;
+	}
+	span{
+		    width:80px;
+          	height:40px;
+          	line-height: 40px;
+          	text-align: center;
+          	box-shadow: 2px 2px 2px #000;
+          	border-radius: 5px;
+          	background-color: blue;
+          	color: #fff;
+          	font-weight: bolder;
+          	cursor: pointer;
+	}
+          #submit{
+          	display: block;
+          	margin:20px auto;
+          }
+          span:hover{
+          	box-shadow: 0 0 0 #fff;
+          }
+         #container,#container1{
+         	height:100%;
+         	width:100%;
+         }
+         #box1{
+         	top:0;
+         	position: fixed;
+            width: 100%;
+            height:100%;
+            background-color: rgba(0,0,0,0.5);
+            display: none;
+            cursor: pointer;
+         }
+         #confirm{
+         	width:400px;
+         	height:300px;
+         	outline: 1px solid #000;
+         	position: absolute;
+         	left:0;
+         	bottom:0;
+         	right:0;
+         	top:0px;
+         	margin:auto;
+         	background-color: #ccc;
+         	box-shadow: 0 0 20px #000;
+         }
+         #confirm>h4{
+         	width:calc(100%-10);
+         	height:40px;
+         	line-height: 40px;
+         	padding-left: 10px;
+         	color: #fff;
+         	border-bottom: 1px solid #000;
+         	background-color: blue;
+         	box-shadow: 0 2px 2px #000;
+
+         }
+         #confirm>p{
+         	margin:10px 10px;
+         }
+         #confirm span{
+         	display: inline-block;
+         	margin-left: 50px;
+            margin-top: 170px;
+         }
+	</style>
+</head>
+<body>
+   <span id="submit">提交</span>
+   <div id="container">
+     <p>滚动吧！少年</p>
+   </div>
+   <div id="box1">
+     <div id="confirm">
+     <h4 id="h4">这是一个浮出层</h4>
+      <p>这是一个浮出层</p>
+     <span id="btnOk">确定</span>
+     <span id="btnCanner">取消</span>
+     </div>
+   </div>   
+</body>
+<script src="task37.js"></script>
+</html>
