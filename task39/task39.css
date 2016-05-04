@@ -1,0 +1,27 @@
+			table{
+				margin: 100px auto;
+				text-align: center;
+				border-collapse: collapse;
+
+			}
+
+			td,th{
+				width: 80px;
+				height: 30px;
+				line-height: 30px;
+			}
+			th{
+				border: 1px solid #000;
+				background-color: gray;
+				padding:1px;
+				color: white;
+			}
+			td{
+				border: 1px solid black;
+			}
+
+			#tab{
+				height:500px;
+				width:100px;
+				margin-top:100px;
+			}

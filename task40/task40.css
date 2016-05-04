@@ -1,0 +1,59 @@
+.my-text{
+    width:200px;
+    height:30px;
+    outline:none;
+    text-align:center;
+    font:0.9rem 'Microsoft YaHei';
+    border:none;
+    border-radius:5px;
+    box-shadow:0 0 15px 0 #ccc;
+}
+div{
+    margin:50px auto;
+}
+.calendar{
+    display:none;
+}
+div select{
+    width:80px;
+    height:25px;
+    outline:none;
+    font:0.9rem 'Microsoft YaHei';
+    border:none;
+    border-radius:5px;
+    box-shadow:0 0 15px 0 #ccc;
+}
+div select:first-child{
+    text-indent:0.5em;
+}
+div select:last-child{
+    text-indent:1.5em;
+}
+table{
+    margin:0 auto;
+    cursor:pointer;
+}
+p{
+    text-align:center;
+    margin:1rem 0;
+}
+th, td{
+    width:50px;
+    text-align:center;
+    border:2px solid #fff;
+        box-shadow:0 0 15px 0 #ccc;
+}
+th{
+    font:1.25rem/1.75rem 'Microsoft YaHei';
+    background-color:#ddf;
+    border-radius:10px;
+}
+td{
+    font:1em/1.5em 'Microsoft YaHei';
+    height:1.5em;
+    background-color:#fff;
+    border-radius:10px;
+}
+td:hover{
+    background-color:#32bfbf;
+}
