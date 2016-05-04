@@ -87,6 +87,6 @@ function checkScrollSlide(){
 	var scrollTop=document.body.scrollTop || document.documentElement.scrollTop;
 	var height=document.body.clientHeight ||document.documentElement.clientHeight;
     var bottom=200+'px';
-    return (lastBoxh<20+'px')?true:false;
+    return true;
 
 }
