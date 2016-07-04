@@ -17,5 +17,5 @@
 http://dannisi.github.io/baidu_ife_task003/task38/
 
 #有些任务没有描述，在gh-pages分支上
-baidu_ife_task001第一阶段任务地址：https://github.com/dannisi/baidu_ife_task1
-baidu_ife_task002第二阶段任务地址：https://github.com/dannisi/baidu_ife_task002
+#baidu_ife_task001第一阶段任务地址：https://github.com/dannisi/baidu_ife_task1
+#baidu_ife_task002第二阶段任务地址：https://github.com/dannisi/baidu_ife_task002
