@@ -15,3 +15,7 @@
 可以配置对哪些列支持排序功能，并在表头进行排序按钮的显示，图中的样式为示意参考，可自行设定样式及交互方式
 提供点击排序按钮后的响应接口，并提供默认的排序方法，当提供的接口没有具体实现时，按默认的排序方法进行排序操作，并更新表格中的数据显示。
 http://dannisi.github.io/baidu_ife_task003/task38/
+
+#有些任务没有描述，在gh-pages分支上
+baidu_ife_task001第一阶段任务地址：https://github.com/dannisi/baidu_ife_task1
+baidu_ife_task002第二阶段任务地址：https://github.com/dannisi/baidu_ife_task002
